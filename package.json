@@ -1,0 +1,15 @@
+{
+  "name": "rayish",
+  "version": "1.0.0",
+  "description": "Line that goes for a while in one direction and then stops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ray",
+    "2d"
+  ],
+  "author": "",
+  "license": "MIT"
+}
