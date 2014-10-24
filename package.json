@@ -12,6 +12,14 @@
   ],
   "author": "Paul Salaets <psalaets@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psalaets/rayish.git"
+  },
+  "homepage": "https://github.com/psalaets/rayish",
+  "bugs": {
+    "url": "https://github.com/psalaets/rayish/issues"
+  },
   "dependencies": {
     "vec2": "^1.5.0"
   },
