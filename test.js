@@ -45,7 +45,7 @@ describe('Rayish', function() {
     });
   });
 
-  it('knows where it points', function() {
+  it('knows where it points (y increases downwards)', function() {
     var pointsUpLeft = new Rayish({x: 0, y: 0}, {x: -1, y: -1}, 5);
 
     assert.ok(pointsUpLeft.isGoingUp());
