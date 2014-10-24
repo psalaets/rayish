@@ -26,12 +26,6 @@ function calcDirection(start, otherPoint) {
 }
 
 Rayish.prototype = {
-  getStart: function() {
-    return this.start;
-  },
-  getEnd: function() {
-    return this.end;
-  },
   isGoingUp: function() {
     return this.direction.y < 0;
   },
