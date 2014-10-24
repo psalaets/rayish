@@ -1,5 +1,13 @@
 var Vec2 = require('vec2');
 
+/**
+* Create new Rayish.
+*
+* @param {object} start - Object with x/y properties that is start point of ray.
+* @param {object} otherPoint - Object with x/y properties that is any other
+*                              point colinear with ray.
+* @param {number} length - Length of ray
+*/
 function Rayish(start, otherPoint, length) {
   this.start = new Vec2(start);
 
