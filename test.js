@@ -49,15 +49,15 @@ describe('Rayish', function() {
     var pointsUpLeft = new Rayish({x: 0, y: 0}, {x: -1, y: -1}, 5);
 
     assert.ok(pointsUpLeft.isGoingUp());
-    assert.notOk(pointsUpLeft.isGoingDown());
     assert.ok(pointsUpLeft.isGoingLeft());
+    assert.notOk(pointsUpLeft.isGoingDown());
     assert.notOk(pointsUpLeft.isGoingRight());
 
     var pointsDownRight = new Rayish({x: 0, y: 0}, {x: 1, y: 1}, 5);
 
-    assert.notOk(pointsDownRight.isGoingUp());
     assert.ok(pointsDownRight.isGoingDown());
-    assert.notOk(pointsDownRight.isGoingLeft());
     assert.ok(pointsDownRight.isGoingRight());
+    assert.notOk(pointsDownRight.isGoingUp());
+    assert.notOk(pointsDownRight.isGoingLeft());
   });
 });
